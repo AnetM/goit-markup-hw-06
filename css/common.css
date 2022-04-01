@@ -247,6 +247,7 @@ footer {
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
+
 }
 
 .adress {
@@ -272,6 +273,9 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 20px;
+
 }
 
 .join-list {
@@ -306,6 +310,7 @@ footer {
 
 .container.footer {
   display: flex;
+  align-items: baseline;
 }
 
 .adress-container {
@@ -329,7 +334,11 @@ footer {
   height: 86px;
   margin-left: auto;
   margin-right: auto;
-  
+}
+
+.form-field.submit {
+  display: flex;
+  align-items: flex-end;
 }
 
 .form-field.mail {
