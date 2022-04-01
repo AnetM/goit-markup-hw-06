@@ -311,3 +311,51 @@ footer {
 .adress-container {
   margin-right: 70px;
 }
+
+.subscribe-mailing {
+  color: var(--hero-adress-title-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  height: 86px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.form-field.mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field input[type="email"] {
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-top: 0%;
+}
+
+.form-field .submit-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  border: transparent;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--hero-adress-title-color);
+}
