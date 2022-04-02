@@ -247,7 +247,6 @@ footer {
 .footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .adress {
@@ -275,7 +274,6 @@ footer {
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 20px;
-
 }
 
 .join-list {
@@ -355,6 +353,12 @@ footer {
   margin-top: 0%;
 }
 
+.form-field input[placeholder="E-mail"] {
+  font-size: 16px;
+  line-height: 1.25;
+  padding-left: 16px;
+}
+
 .form-field .submit-btn {
   width: 200px;
   height: 50px;
@@ -367,4 +371,13 @@ footer {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--hero-adress-title-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-send {
+  margin-left: 10px;
 }
