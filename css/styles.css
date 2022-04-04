@@ -264,6 +264,60 @@ h2 {
   background-color: #ffffff;
 }
 
+.modal-form {
+  width: 448px;
+  margin: 0 auto;
+}
+
+.modal-title {
+  color: #000;
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field.policy {
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.input-box {
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-field label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  color: var(--primary-text-color);
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+}
+
+.form-field label[for="policy"] {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.comment {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+/* .form-field textarea[placeholder="Введите текст"] {
+  color: rgba(117, 117, 117, 0.5);
+} */
+
 .close-btn {
   position: absolute;
   top: 8px;
@@ -301,32 +355,6 @@ h2 {
 .list-item .icon {
   margin: auto;
 }
-/* .list-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--icon-background-color);
-} */
-
-/* .icon-satellite::before {
-  background-image: url(../img/satellite.svg);
-  background-size: auto;
-}
-
-.icon-clock::before {
-  background-image: url(../img/clock.svg);
-}
-
-.icon-computer::before {
-  background-image: url(../img/computer.svg);
-}
-
-.icon-spaceman::before {
-  background-image: url(../img/spaceman.svg);
-} */
 
 .feature-list .title {
   color: var(--title-color);

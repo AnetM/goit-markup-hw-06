@@ -344,7 +344,7 @@ footer {
   flex-direction: column;
 }
 
-.form-field input[type="email"] {
+.footer input[type="email"] {
   width: 358px;
   height: 50px;
   background-color: transparent;

@@ -73,6 +73,42 @@
             <button data-close-modal class="close-btn">
               <img src="./img/close.svg" alt="" />
             </button>
+            <div modal-form-container>
+              <form class="modal-form">
+                <h2 class="modal-title">
+                  Оставьте свои данные, мы вам перезвоним
+                </h2>
+                <div class="form-field">
+                  <label for="name">Имя</label>
+                  <input class="input-box" type="text" name="name" id="name" placeholder="" />
+                </div>
+                <div class="form-field">
+                  <label for="tel">Телефон</label>
+                  <input class="input-box" type="tel" name="tel" id="tel" placeholder="" />
+                </div>
+                <div class="form-field">
+                  <label for="tel">Почта</label>
+                  <input class="input-box" type="email" name="mail" id="mail" placeholder="" />
+                </div>
+                <div class="form-field">
+                  <label for="comment">Коментарий</label>
+                  <textarea
+                    class="comment"
+                    name="comment"
+                    id="comment"
+                    rows="8"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </div>
+                <div class="form-field policy">
+                  <input type="checkbox" name="policy" id="policy" />
+                  <label for="policy"
+                    >Соглашаюсь с рассылкой и принимаю Условия договора</label
+                  >
+                </div>
+                <button type="submit" class="button">Отправить</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
