@@ -283,6 +283,7 @@ h2 {
 .form-field {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .form-field.policy {
@@ -347,6 +348,13 @@ h2 {
   border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+.form-icon {
+  position: absolute;
+  fill: #212121;
+  top: 29px;
+  left: 12px;
 }
 
 /* Section */
