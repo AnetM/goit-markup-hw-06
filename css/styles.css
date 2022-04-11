@@ -401,12 +401,13 @@ h2 {
 }
 
 .checkbox:checked + .checkbox-icon {
-  fill: var(--accent-color);
+  fill: none;
   border: transparent;
   border-radius: 2px;
   background-color: var(--accent-color);
   background-image: url(../img/checked.svg);
   background-size: contain;
+  background-repeat: no-repeat;
   background-origin: border-box;
 }
 
