@@ -483,6 +483,7 @@ h2 {
 /* Чем мы занимаемся */
 
 .whatwedo-list {
+  /* height: 294px; */
   display: flex;
   justify-content: space-between;
   list-style: none;
