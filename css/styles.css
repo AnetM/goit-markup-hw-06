@@ -314,6 +314,8 @@ h2 {
 }
 
 .form-field label[for="policy"] {
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -334,6 +336,7 @@ h2 {
 
 .comment:hover {
   border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -362,12 +365,19 @@ h2 {
   right: 8px;
   cursor: pointer;
   fill: #000000;
+  padding: 0;
 
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  transform: fill;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn:hover {
+  fill: var(--accent-color);
 }
 
 .input-box:hover + .form-icon {
@@ -376,6 +386,7 @@ h2 {
 
 .input-box:hover {
   border: 1px solid var(--accent-color);
+  cursor: pointer;
 }
 
 .form-icon {
@@ -413,6 +424,11 @@ h2 {
 
 .checkbox-icon {
   position: relative;
+  margin-right: 9px;
+}
+
+.policy-link {
+  color: var(--accent-color);
 }
 
 /* Section */
@@ -597,7 +613,6 @@ h2 {
 
 .button-wrapper {
   text-align: center;
-  margin-top: 30px;
 }
 
 /* Footer */
